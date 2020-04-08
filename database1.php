@@ -21,20 +21,20 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
 CREATE TABLE IF NOT EXISTS `register` (
-  `fullname` mediumtext NOT NULL,
+  `username` mediumtext NOT NULL,
+  'Password' mediumtrxt NOT NULL,
   `dob` date NOT NULL,
   `gender` mediumtext NOT NULL,
-  `education` mediumtext NOT NULL,
-  `institution` mediumtext NOT NULL
+  `education` mediumtext NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `register`
 --
 
-INSERT INTO `register` (`fullname`, `dob`, `gender`, `education`, `institution`) VALUES
-('rizwana', '2000.02.23', 'female', 'bsc', 'msn')
-('shabana','1999.03.04','female','bsc','npr');
+INSERT INTO `register` (`fullname`,'password', `dob`, `gender`, `education`, `institution`) VALUES
+('rizwana','rizwana123' '2000.02.23', 'female', 'bsc', )
+('shabana','shabana123',1999.03.04','female','bsc');
 
 
 
