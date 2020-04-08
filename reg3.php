@@ -98,7 +98,7 @@
                        </div>
                    </div><br>
                     <div class="row">
-                       <label class="label col-md-2 control-label">Datev of birth</div>
+                       <label class="label col-md-2 control-label">Date of birth</div>
                         <div class="col-md-10">
                             <input type="date" class="form-control" name="dob" placeholder="Date of birth"><br>
                        </div>
@@ -229,7 +229,7 @@ function savedata()
      var education=document.getElementByID("contact").value;
      var email=document.getElementById("email").value;
      var url="save.php";
-     var val="username="+username+"&password="+password+"&gender="+gender"+"&address="+address+"&education="+education+"&email="+email;
+     var val="username="+username+"&password="+password+"&gender=+gender"&education="+education+"&email="+email;
      a.open("POST",url,true);
      a.setRequestHeader("content-type","application/x-www-form-urlencoded");
      a.setRequestHeader("content-length",val.length);
