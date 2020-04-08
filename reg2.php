@@ -219,7 +219,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=text]:focus, inpu
    <td> <input type="text"  name="username" id="username" required></td></tr>
 	<tr><td><label for="pass"><b>PASSWORD</b></label></td>
     <td><input type="password"  name="password" required="" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"></td></tr>
-	
+	<tr><td><input type="checkbox" onClick="myFunction()">Show Password <br><br></td></tr>	
 	<tr><td><label for="gender"><b>GENDER</b></label></td>
         <td><input type="radio"  name="gender" value="male">Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"  name="gender"  value="female">Female</td></tr>
     <tr><td><label><b>DATE OF BIRTH<b></label></td>
