@@ -226,10 +226,10 @@ function savedata()
      var gender=document.getElementByID("gender1").value;
      var gender=document.getElementById("gender2").value;
      var address=document.getElementById("address").value;
-     var contact=document.getElementByID("contact").value;
+     var education=document.getElementByID("contact").value;
      var email=document.getElementById("email").value;
      var url="save.php";
-     var val="username="+username+"&password="+password+"&gender="+gender"+"&address="+address+"&contact="+contact+"&email="+email;
+     var val="username="+username+"&password="+password+"&gender="+gender"+"&address="+address+"&education="+education+"&email="+email;
      a.open("POST",url,true);
      a.setRequestHeader("content-type","application/x-www-form-urlencoded");
      a.setRequestHeader("content-length",val.length);
